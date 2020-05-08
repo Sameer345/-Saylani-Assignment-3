@@ -1,0 +1,459 @@
+           /* HEADER  */
+           
+ .header
+ {
+     background-color:rgb(6, 110, 255) ;
+     width: 100%;
+     color: white;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: center;
+     justify-content:space-around;
+     text-align: center; 
+     padding: 4px;
+    } 
+
+ h2
+ {
+    font-family: 'Merriweather', serif;
+    font-weight: 600;
+}   
+     
+ .header i 
+ {
+     padding: 4px;
+ }     
+    .header_sub
+    {
+        margin-top: -70px;
+
+ }       
+ button
+ {
+     color: gray;
+     background-color:lightgray;
+     font-size: 11px;
+     /* height: 25px; */
+     border: 1px solid grey;
+     padding: 6px;
+     width: 82px;
+     
+}
+     
+ /* NAVBAR  */
+.nav_bar 
+ {
+         /* background-color: lightgreen; */
+         /* padding-right: 10px; */
+         color: black;
+         text-align: center;
+         background-color: black;
+        position: sticky;
+        top:0;
+        z-index: 2;
+}
+    
+.logo img
+ {
+     /* border: 2px solid black; */
+    width: 200px;
+    margin-left: 70px;
+
+ }
+
+.label
+{
+    background-color:rgb(6, 110, 255);
+    height: 30px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    color: white;
+
+}
+.news
+{
+    color:rgb(15, 231, 15) ;
+}
+
+/* INTRODUCTIO  */
+.short_logo{
+    text-align: center;
+}
+.short_logo img{
+    height: 40px;
+    width: 40px;
+}
+
+.short_logo span{
+
+    font-size: 20px;
+}
+
+        /* INTRODUCTION  */
+.intro h2
+{
+    text-align: center;
+}
+
+.intro{
+    text-align:center;
+}
+
+.intro_para{
+    width: 64%;
+    margin: auto;
+    color:rgb(141, 138, 138);
+    text-align: justify;
+
+}
+
+.intro_first
+{
+    color: #316DC3;
+}
+
+.intro_last
+{
+    color: rgb(47, 134, 47);
+}
+
+
+     /* WORKING  */
+
+.working
+{
+    background-color:#316DC3;
+    text-align: center;
+    color: white;
+}
+
+.container
+{
+    padding: 20px 5px 70px 5px;
+}
+
+.count
+{
+    font-family: 'Merriweather', serif;
+    font-size: 45px;
+}
+.counters
+{
+    line-height: 40px;
+}
+    
+    
+.working_name
+{
+    font-weight: bold;
+   
+}
+.monthly
+{
+    color: rgb(0, 255, 0);
+}
+
+.working img{
+    width: 50px;
+}
+
+.container
+{
+    padding-top: 80px;
+
+}
+
+.what_we_are_doing
+{
+    text-align: center;
+}
+
+.what_we_are_doing h2
+{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.card
+{
+    background-color: #fff;
+    height:170px;
+    width: 100%;
+    text-align: center;
+    color:#316DC3;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    font-family: 'Merriweather', serif;
+    margin-bottom: 20px;
+    box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 40.8px 32.4px rgba(0, 0, 0, 0.086),    
+    0 45px 80px rgba(0, 0, 0, 0.12)
+}
+
+.card_row
+{
+    text-align: center;
+}
+
+.sadqah_icon
+{
+    color: green;
+}
+.family_icon
+{
+    color: rgb(73, 126, 73);
+}
+
+.stethoscope_icon
+{
+    color: darkslateblue;
+}
+.spoon_icon
+{
+    color: dimgrey;
+}
+.tap_icon
+{
+    color: dodgerblue;
+}
+.book_icon
+{
+    color: rgb(63, 88, 20);
+}
+
+h4
+{
+font-weight: 600;
+font-size: 20px;
+padding-top: 20px;
+}
+
+
+/* UPCOMING EVENTS */
+.projects
+{   
+    border: 1px solid 1px solid #eeeeee;
+    padding: 15px;
+    width: 100%;
+    display: flex;
+    padding-top: 20px;
+    background-color: #f7f8fa ;
+    margin-bottom: 10px;
+    
+}
+.Upcoming_projects hr
+{
+    background-color: lightgray;
+}
+
+.Upcoming_projects h3
+{
+    color:#316DC3 ;
+    text-align: left;
+    font-weight: 600;
+    font-family: 'Merriweather', serif;
+}
+
+.Upcoming_projects p 
+{
+    color:#316DC3;
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+}
+.upcomng_event_para
+{
+text-align: justify;
+color: rgb(141, 138, 138);
+
+}
+.upcomng_event_para span{
+    color: blue;
+}
+
+.projects p 
+{
+padding-left: 20px;
+
+
+}
+
+.projects img{
+    width: 30px;
+    height: 30px;
+}
+
+/*  IMAGE GALLERY */
+
+.image_gallery
+{
+    padding-top: 50px;
+}
+.image_gallery h2{
+    text-align: center;
+}
+
+.images
+{
+
+    text-align: center;
+    
+}
+
+
+.images img{
+    width: 220px;
+    height: 140px;
+    margin-bottom: 5px;
+}
+
+/* FOOTER */
+
+ul
+{
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+.footer
+{
+    background-color: black;
+    color: gray;
+    margin-top: 100px;
+    padding: 35px;
+}
+
+hr{
+    background-color: gray;
+}
+
+.fa-phone , .fa-envelope{
+color: green;
+padding-right: 10px;
+}
+
+.fa-facebook
+{
+    color: #3b5998;
+}
+
+.fa-instagram
+{
+    color: #bc2a8d ;
+}
+
+.fa-youtube
+{
+  color: #bb0000;   
+}
+
+.fa-twitter
+{
+    color: #0084b4;
+}
+
+
+/* END  */
+.end
+{
+    background-color: #316DD9;
+    color: white;
+    height:40px;
+    padding-left:13%;
+    font-size: 12px;
+    padding-top:10px;
+
+}
+
+@media screen and (max-width:414px)
+      {
+          /* CARDS       */
+    .card
+    {
+    
+        width: 100%;
+    }
+
+  
+ h2 
+ {
+     font-size: 28px;
+ }  
+ 
+h3 
+{ 
+    font-size: 24px;
+
+  
+}
+     /* INTRODUCTION PARA  */
+ .intro_para
+ {
+   width: 93%;
+ }  
+ 
+     /* SLIDER */
+ .slider_img
+ {
+     height: 160px;
+ }  
+ 
+ 
+    /* NAVBAR  */
+.logo img
+{
+         width: 160px;
+         margin-left: 0px;
+}  
+
+
+    /* WORKING  */
+.counters
+{
+    padding-bottom: 60px;
+    
+}   
+
+ .images img
+ {
+     width: 90%;
+    padding-bottom: 40px;
+    height: 180px;
+
+    
+ }
+
+   /* HEADER  */
+.header
+{
+    padding-top: 15px;
+    padding-bottom: 20px;
+} 
+
+.upcomng_event_para
+{
+    width: 90%;
+}
+
+}
+
+@media screen and (max-width:800px)
+{
+.intro_para
+{
+    width:90%
+}
+
+} 
+
+    
+     
+   
